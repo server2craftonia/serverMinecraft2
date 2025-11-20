@@ -1,0 +1,989 @@
+[08:33:07] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.17.3
+[08:33:07] [ForkJoinPool-1-worker-3/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[08:33:07] [ForkJoinPool-1-worker-4/WARN]: Mod naturalist uses the version 5.0pre5 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0pre5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[08:33:07] [ForkJoinPool-1-worker-2/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 12
+[08:33:08] [main/INFO]: Loading 270 mods:
+	- accessories 1.0.0-beta.48+1.20.1
+	   |-- io_wispforest_endec 0.1.8
+	   |-- io_wispforest_endec_gson 0.1.5
+	   \-- io_wispforest_endec_netty 0.1.4
+	- additionalstructures 4.2.2
+	- aether 1.5.2-beta.6
+	   |-- cumulus_menus 1.20.1-1.0.2-fabric
+	   |-- mm_shedaniel 2.4.1
+	   |-- nitrogen_internals 1.20.1-1.0.15-fabric
+	   |-- porting_lib_asm 2.3.9-beta.51+1.20.1
+	   |-- porting_lib_base 2.3.9-beta.52+1.20.1
+	   |    |-- porting_lib_accessors 2.3.9-beta.52+1.20.1
+	   |    |-- porting_lib_attributes 2.3.9-beta.52+1.20.1
+	   |    |-- porting_lib_common 2.3.9-beta.52+1.20.1
+	   |    |-- porting_lib_config 2.3.9-beta.52+1.20.1
+	   |    |-- porting_lib_core 2.3.9-beta.52+1.20.1
+	   |    |-- porting_lib_entity 2.3.9-beta.52+1.20.1
+	   |    |-- porting_lib_extensions 2.3.9-beta.52+1.20.1
+	   |    |-- porting_lib_fluids 2.3.9-beta.52+1.20.1
+	   |    |-- porting_lib_gui_utils 2.3.9-beta.52+1.20.1
+	   |    |-- porting_lib_lazy_registration 2.3.9-beta.52+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.9-beta.52+1.20.1
+	   |    |-- porting_lib_tool_actions 2.3.9-beta.52+1.20.1
+	   |    |-- porting_lib_transfer 2.3.9-beta.52+1.20.1
+	   |    |-- porting_lib_utility 2.3.9-beta.52+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_blocks 2.3.9-beta.51+1.20.1
+	   |-- porting_lib_brewing 2.3.9-beta.51+1.20.1
+	   |-- porting_lib_client_events 2.3.9-beta.51+1.20.1
+	   |-- porting_lib_data 2.3.9-beta.51+1.20.1
+	   |-- porting_lib_items 2.3.9-beta.51+1.20.1
+	   |-- porting_lib_level_events 2.3.9-beta.51+1.20.1
+	   |-- porting_lib_loot 2.3.9-beta.51+1.20.1
+	   |-- porting_lib_model_generators 2.3.9-beta.51+1.20.1
+	   |    \-- porting_lib_model_materials 2.3.9-beta.51+1.20.1
+	   |-- porting_lib_model_loader 2.3.9-beta.51+1.20.1
+	   |-- porting_lib_models 2.3.9-beta.51+1.20.1
+	   |-- porting_lib_networking 2.3.9-beta.51+1.20.1
+	   |-- porting_lib_recipe_book_categories 2.3.9-beta.51+1.20.1
+	   \-- porting_lib_tags 3.0
+	- aquamirae 6
+	- aquamirae_mod_extra_music 1.1.0
+	- architectury 9.2.14
+	- atistructures 1.4.0
+	- awesomedungeonocean 3.3.0
+	- azurelib 3.1.1
+	- backpacked 3.0.0-beta.9
+	   \-- mm 2.3
+	- balm 7.3.37
+	   \-- kuma_api 20.1.12
+	- bettercaves 1.20.1-Fabric-2.0.5
+	   \-- org_reflections_reflections 0.10.2
+	- bettercombat 1.8.6+1.20.1
+	- betterdeserttemples 1.20-Fabric-3.0.3
+	- betterdungeons 1.20-Fabric-4.0.4
+	- betterendisland 1.20-Fabric-2.0.6
+	- betterfortresses 1.20-Fabric-2.0.6
+	- betterjungletemples 1.20-Fabric-2.0.5
+	- bettermineshafts 1.20-Fabric-4.0.4
+	- betteroceanmonuments 1.20-Fabric-3.0.4
+	- betterstrongholds 1.20-Fabric-4.0.3
+	- betterwitchhuts 1.20-Fabric-3.0.3
+	- bigger_vanilla_trees 1.0
+	- bookshelf 20.2.13
+	- boss_music_mod 1.2.0
+	- bosses_of_mass_destruction 1.7.5-1.20.1
+	   |-- maelstrom_library 1.6.1-1.20
+	   \-- multipart_entities 1.5-1.20
+	- cardinal-components 5.2.3
+	   |-- cardinal-components-base 5.2.3
+	   |-- cardinal-components-block 5.2.3
+	   |-- cardinal-components-chunk 5.2.3
+	   |-- cardinal-components-entity 5.2.3
+	   |-- cardinal-components-item 5.2.3
+	   |-- cardinal-components-level 5.2.3
+	   |-- cardinal-components-scoreboard 5.2.3
+	   \-- cardinal-components-world 5.2.3
+	- cavedust 1.4.1
+	   \-- kirin 1.15.0
+	- cerbons_api 1.1.0
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- combatroll 1.3.3+1.20.1
+	- corgilib 4.0.3.4
+	   |-- com_electronwill_night-config_core 3.8.2
+	   \-- com_electronwill_night-config_toml 3.8.2
+	- creativecore 2.12.34
+	   \-- net_minecraftforge_eventbus 6.0.3
+	- cristellib 1.1.5
+	   \-- blue_endless_jankson 1.2.3
+	- crittersandcompanions 1.20.1-2.3.5
+	   \-- forgeconfigapiport 8.0.2
+	- ctov 3.4.14
+	- cupboard 1.20.1-2.7
+	- darkmobs 1.1.9
+	- deeper_oceans 2.0.0
+	- distanthorizons 2.3.6-b
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da77
+	   |-- fabric-rendering-v1 3.0.7+b3afc78b77
+	   \-- fabric-screen-api-v1 2.0.7+b3afc78b77
+	- dragon_mounts 1.4
+	- dungeons_arise 2.1.58
+	- dungeons_arise_seven_seas 1.0.2
+	- eldritch_mobs 1.15.2
+	   |-- polymer-blocks 0.5.15+1.20.1
+	   |-- polymer-core 0.5.15+1.20.1
+	   |    |-- polymer-networking 0.5.15+1.20.1
+	   |    |    \-- polymer-common 0.5.15+1.20.1
+	   |    |         \-- packet_tweaker 0.4.0+1.19.4
+	   |    \-- polymer-registry-sync-manipulator 0.5.15+1.20.1
+	   \-- server_translations_api 2.0.0+1.20
+	        \-- packet_tweaker 0.4.0+1.19.4
+	- endrem 5.2.4
+	- enhancedvisuals 1.8.2
+	- entityculling 1.9.3
+	   |-- transition 1.0.8
+	   \-- trender 1.0.8
+	- epicwitchhuts 1.1.0
+	- explorify 1.6.4
+	- fabric-api 0.92.6+1.20.1
+	   |-- fabric-api-base 0.4.32+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	   |-- fabric-biome-api-v1 13.0.14+1802ada577
+	   |-- fabric-block-api-v1 1.0.12+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
+	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
+	   |-- fabric-command-api-v1 1.2.35+f71b366f77
+	   |-- fabric-command-api-v2 2.2.14+1802ada577
+	   |-- fabric-commands-v0 0.2.52+df3654b377
+	   |-- fabric-containers-v0 0.1.67+df3654b377
+	   |-- fabric-content-registries-v0 4.0.13+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.7+1802ada577
+	   |-- fabric-dimensions-v1 2.1.55+1802ada577
+	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.5+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
+	   |-- fabric-item-api-v1 2.1.29+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
+	   |-- fabric-keybindings-v0 0.2.36+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	   |-- fabric-loot-api-v2 1.2.3+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
+	   |-- fabric-message-api-v1 5.1.10+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
+	   |-- fabric-models-v0 0.4.3+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.14+a158aa0477
+	   |-- fabric-networking-v0 0.3.54+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
+	   |-- fabric-particles-v1 1.1.3+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.24+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.6+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
+	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	   |-- fabric-rendering-v0 1.1.50+df3654b377
+	   |-- fabric-rendering-v1 3.0.9+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.9+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.33+1802ada577
+	   |-- fabric-sound-api-v1 1.0.14+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabric-language-kotlin 1.13.7+kotlin.2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.17.3
+	   \-- mixinextras 0.5.0
+	- fantasy_weapons 0.3.1-1.20.1
+	- farmers_structures 1.0.0
+	- faunify 1.2.4
+	- ferritecore 6.0.1
+	- feur_extension_desert 1.2.4
+	- feur_extension_fossil 1.2.6
+	- feur_extension_jungle 1.1.2
+	- framework 0.7.15
+	   \-- org_javassist_javassist 3.29.2-GA
+	- geckolib 4.8.2
+	   \-- com_eliotlash_mclib_mclib 20
+	- gpumemleakfix 1.20.1-1.8
+	- guardvillagers 2.0.9-1.20.1
+	   \-- midnightlib 1.4.1
+	- immersiveui 0.3.0
+	- imst_n 1.0.0
+	- jade 11.13.1+fabric
+	- java 17
+	- jei 15.20.0.112
+	- journeymap 5.10.3
+	   \-- journeymap-api-fabric 1.20-1.9-fabric-SNAPSHOT
+	- jungle_treehouse_village 1.0.0
+	- jupiter 2.2.2
+	- konkrete 1.8.1
+	- krypton 0.2.3
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- libraryferret 4.0.0
+	- lithium 0.11.3
+	- lithostitched 1.4.11
+	- lootintegration_wda 1
+	- lootintegrations 1.20.1-4.7
+	- lootintegrations_yungs 1.4
+	- mca 7.6.11+1.20.1
+	- mcwbridges 3.1.0
+	- mcwdoors 1.1.2
+	- mcwfences 1.2.0
+	- mcwfurnitures 3.3.0
+	- mcwlights 1.1.2
+	- mcwpaintings 1.0.5
+	- mcwpaths 1.1.1
+	- mcwroofs 2.3.2
+	- mcwstairs 1.0.1
+	- mcwtrpdoors 1.1.4
+	- mcwwindows 2.4.1
+	- medieval_buildings 1.1.1
+	- medieval_nether 1.0.0
+	- medievalend 1.0.1
+	- melody 1.0.3
+	- mes 1.4.6-1.20-fabric
+	- minecraft 1.20.1
+	- mns 2.0.1
+	- modernfix 5.25.0+mc1.20.1
+	- moogs_structures 1.0.1-1.20-1.20.4
+	- more_thunder_fabric 1.0.0
+	- mr_dungeons_andtaverns 3.0.3.f
+	- mr_lukis_grandcapitals 1.1.2
+	- mr_qraftyfied 6
+	- mvs 5.0.21
+	- mythicmounts 1.20.1-7.4
+	- myths_of_the_sea 1.0.1
+	   \-- reach-entity-attributes 2.4.0
+	- naturalist 5.0pre5
+	   \-- midnightlib 1.4.1
+	- obscure_api 16
+	- octolib 0.5.0.1
+	   \-- org_yaml_snakeyaml 2.2
+	- owo 0.11.2+1.20
+	- patchouli 1.20.1-81-FABRIC
+	   \-- fiber 0.23.0-2
+	- player-animator 1.0.2-rc1+1.20
+	- resourcefulconfig 2.1.3
+	- seasons 2.3+1.20
+	- seasonsterralithcompat 1.0-2.3.7
+	- simplemod 1.20.1
+	- skyvillages 1.0.4-1.19.2-1.20.1
+	- smartbrainlib 1.15
+	- sound_physics_remastered 1.20.1-1.5.1
+	- starlight 1.1.2+fabric.dbc156f
+	- strayed_fates_forsaken 1.1.3.2
+	- structory 1.3.5
+	- structory_towers 1.0.7
+	- structureessentials 1.20.1-4.8
+	- sushi_bar 0.2.2+1.20
+	   \-- com_moulberry_mixinconstraints 1.0.1
+	- t_and_t 1.12
+	- taxov 1.1.2
+	- terrablender 3.0.1.10
+	- terralith 2.5.4
+	- trashslot 15.1.2
+	- trinkets 3.7.2
+	- u_desert 1.6.3
+	- u_sea 1.2.4
+	- underground_villages 2.1.0
+	- wildernature 1.0.6
+	- yigd 2.0.16
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   \-- libgui 8.1.1+1.20.1
+	        |-- jankson 6.0.0+j1.2.3
+	        \-- libninepatch 1.2.0
+	- yungsapi 1.20-Fabric-4.0.6
+	- yungsbridges 1.20-Fabric-4.0.3
+	- yungscavebiomes 1.20.1-Fabric-2.0.5
+[08:33:08] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/serverMinecraft2/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[08:33:08] [main/INFO]: Compatibility level set to JAVA_17
+[08:33:08] [main/WARN]: Reference map 'CerbonsAPI-Fabric-1.20.1-fabric-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:33:08] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:33:08] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 3 override(s) found
+[08:33:08] [main/INFO]: Started MM (shedaniel's fork) at me/shedaniel/gen/mixin/
+[08:33:08] [main/WARN]: Reference map 'Manningham Mills-refmap.json' for mixins.mm_shedaniel.json could not be read. If this is a development environment you can ignore this message
+[08:33:08] [main/INFO]: Loaded configuration file for ModernFix 5.25.0+mc1.20.1: 72 options available, 0 override(s) found
+[08:33:08] [main/INFO]: Applying Nashorn fix
+[08:33:08] [main/WARN]: Reference map 'mythic-mounts-refmap.json' for mythic-mounts.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:33:08] [main/WARN]: Reference map 'nitrogen_internals-refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:33:08] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:33:09] [main/WARN]: Reference map 'wildernature.fabric.mixins.refmap.json' for wildernature.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:33:09] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[08:33:09] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[08:33:09] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[08:33:09] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[08:33:09] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[08:33:09] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[08:33:09] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
+[08:33:09] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
+[08:33:09] [main/WARN]: Error loading class: net/minecraft/class_638$class_5271 (java.lang.ClassNotFoundException: net/minecraft/class_638$class_5271)
+[08:33:09] [main/WARN]: @Mixin target net.minecraft.class_638$class_5271 was not found dust.mixins.json:ClientWorldAccessor from mod cavedust
+[08:33:09] [main/WARN]: Error loading class: net/minecraft/class_340 (java.lang.ClassNotFoundException: net/minecraft/class_340)
+[08:33:09] [main/WARN]: @Mixin target net.minecraft.class_340 was not found dust.mixins.json:MixinDebugScreenOverlay from mod cavedust
+[08:33:09] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.BrainMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[08:33:09] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.MultiTickTaskMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[08:33:09] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[08:33:09] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[08:33:09] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[08:33:10] [main/WARN]: Error loading class: net/minecraft/class_481 (java.lang.ClassNotFoundException: net/minecraft/class_481)
+[08:33:10] [main/WARN]: @Mixin target net.minecraft.class_481 was not found porting_lib_items.mixins.json:client.CreativeModeInventoryScreenMixin from mod porting_lib_items
+[08:33:10] [main/INFO]: Loaded config for: structureessentials.json
+[08:33:10] [main/WARN]: Error loading class: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1 (java.lang.ClassNotFoundException: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1)
+[08:33:10] [main/WARN]: Error loading class: io/github/apace100/apoli/power/KeepInventoryPower (java.lang.ClassNotFoundException: io/github/apace100/apoli/power/KeepInventoryPower)
+[08:33:10] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[08:33:10] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm_shedaniel.json:net.minecraft.class_314 from mod mm_shedaniel
+[08:33:10] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[08:33:12] [main/WARN]: @ModifyVariable(@At("INVOKE")) Shift.BY=2 on accessories-fabric.mixins.json:LivingEntityMixin from mod accessories::localvar$zfb000$accessories$adjustLooting exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[08:33:12] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=1 on crittersandcompanions.mixins.json:LivingEntityMixin from mod crittersandcompanions::handler$bcl000$crittersandcompanions$onDie exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[08:33:12] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[08:33:12] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[08:33:12] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[08:33:12] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[08:33:12] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[08:33:14] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zfn000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[08:33:15] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[08:33:15] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[08:33:16] [main/INFO]: Vanilla bootstrap took 5329 milliseconds
+[08:33:16] [main/INFO]: Registering Listeners!
+[08:33:17] [main/INFO]: Reflections took 85 ms to scan 1 urls, producing 3 keys and 34 values
+[08:33:17] [main/INFO]: Registered synced data key backpacked:unlock_tracker for minecraft:player
+[08:33:17] [main/INFO]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
+[08:33:17] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 0 keys and 0 values
+[08:33:17] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 0 keys and 0 values
+[08:33:18] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[08:33:18] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[08:33:18] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
+[08:33:18] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[08:33:18] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[08:33:18] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[08:33:18] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[08:33:18] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[08:33:18] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[08:33:18] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[08:33:18] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[08:33:18] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[08:33:18] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[08:33:18] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[08:33:18] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[08:33:18] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[08:33:18] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[08:33:18] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[08:33:18] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[08:33:18] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[08:33:18] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[08:33:18] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[08:33:18] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[08:33:18] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[08:33:18] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[08:33:18] [main/INFO]: Initializing network...
+[08:33:18] [main/INFO]: Initialized network!
+[08:33:18] [main/INFO]: Loaded config for: cupboard.json
+[08:33:18] [main/INFO]: Hello Fabric world!
+[08:33:18] [main/INFO]: Channelling eldritch energies...
+[08:33:19] [main/INFO]: Initializing Faunify...
+[08:33:19] [main/INFO]: Faunify initialized successfully!
+[08:33:19] [main/INFO]: Initializing FeurExtensionDesertMod
+[08:33:19] [main/INFO]: Initializing FeurExtensionFossilMod
+[08:33:19] [main/INFO]: Initializing FeurExtensionJungleMod
+[08:33:19] [main/INFO]: Initializing ServerSide Packet Registries
+[08:33:19] [main/INFO]: Initializing JungleTreehouseVillageMod
+[08:33:19] [main/INFO]: 0 Jupiter entrypoint(s) detected: 
+[08:33:19] [main/INFO]: [KONKRETE] Successfully initialized!
+[08:33:19] [main/INFO]: [KONKRETE] Server-side libs ready to use!
+[08:33:19] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[08:33:19] [main/INFO]: Initialize mod Library Ferret
+[08:33:19] [main/INFO]: Initialized mod Library Ferret
+[08:33:19] [main/INFO]: Bypassed Mojang DFU
+[08:33:19] [main/INFO]: Instantiating Mojang DFU
+[08:33:19] [main/ERROR]: No data fixer registered for mca:tombstone
+[08:33:20] [main/INFO]: [MELODY] Disabling Melody since it's loaded server-side.
+[08:33:20] [main/INFO]: Definitely not up to no good
+[08:33:20] [main/INFO]: Definitely not up to no good
+[08:33:20] [main/INFO]: Initializing MoreThunderFabricMod
+[08:33:20] [main/INFO]: My Seethenhagen factory makes 331 pounds of licorice per hour
+[08:33:20] [main/INFO]: [Fabric Seasons] Trying to read config file...
+[08:33:20] [main/INFO]: [Fabric Seasons] A config file was found, loading it..
+[08:33:20] [main/INFO]: [Fabric Seasons] Successfully loaded config file.
+[08:33:20] [main/INFO]: [Fabric Seasons] Successfully loaded seasonsterralithcompat 1.0 for terralith 2.3.7
+[08:33:20] [main/INFO]: Hello Fabric world!
+[08:33:20] [main/INFO]: Hello Fabric world!
+[08:33:20] [main/INFO]: structureessentials mod initialized
+[08:33:20] [main/INFO]: Sushi of the day: Michigan roll
+[08:33:20] [main/INFO]: Initializing TaxovMod
+[08:33:20] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[08:33:20] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[08:33:20] [main/INFO]: Registered region yungscavebiomes:overworld to index 1 for type OVERWORLD
+[08:33:21] [main/INFO]: Registering C2S receiver with id wildernature:screen_action
+[08:33:21] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 4 values
+[08:33:21] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[08:33:21] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[08:33:21] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[08:33:21] [main/INFO]: Reflections took 18 ms to scan 1 urls, producing 5 keys and 65 values
+[08:33:21] [main/INFO]: Reflections took 15 ms to scan 1 urls, producing 5 keys and 65 values
+[08:33:21] [main/INFO]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
+[08:33:21] [main/INFO]: Distant Horizons, Version: 2.3.6-b
+[08:33:21] [main/INFO]: Registering Fabric Server Events
+[08:33:21] [main/INFO]: Registered mod compatibility accessor for: [Starlight-Fabric-1.18.X].
+[08:33:21] [main/INFO]: Distant Horizons server Initialized, adding event subscribers...
+[08:33:21] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[08:33:21] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08:33:22] [main/INFO]: Structure placement for `awesomedungeonocean:brigantine/start_pool`: { spacing: 25, separation: 10, salt: 294215156, useValueFromConfiguration: true}
+[08:33:22] [main/INFO]: Structure placement for `awesomedungeonocean:frigate_large/start_pool`: { spacing: 25, separation: 10, salt: 354415156, useValueFromConfiguration: true}
+[08:33:22] [main/INFO]: Structure placement for `awesomedungeonocean:frigate_medium/start_pool`: { spacing: 25, separation: 10, salt: 474155156, useValueFromConfiguration: true}
+[08:33:22] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_cage/start_pool`: { spacing: 25, separation: 10, salt: 40842806, useValueFromConfiguration: true}
+[08:33:22] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_quad/start_pool`: { spacing: 25, separation: 10, salt: 254835856, useValueFromConfiguration: true}
+[08:33:22] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_ruin_pillager/start_pool`: { spacing: 25, separation: 10, salt: 254145856, useValueFromConfiguration: true}
+[08:33:22] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_ruin_vanilla_temple/start_pool`: { spacing: 25, separation: 10, salt: 25482856, useValueFromConfiguration: true}
+[08:33:22] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_temple_quad/start_pool`: { spacing: 25, separation: 10, salt: 35482856, useValueFromConfiguration: true}
+[08:33:22] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_the_column_temple/start_pool`: { spacing: 25, separation: 10, salt: 15482856, useValueFromConfiguration: true}
+[08:33:22] [main/INFO]: Structure placement for `awesomedungeonocean:ocean_warn_temple/start_pool`: { spacing: 25, separation: 10, salt: 45482856, useValueFromConfiguration: true}
+[08:33:24] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[08:33:25] [Worker-Main-1/ERROR]: Couldn't parse element loot_tables:ati_structures:chests/archer_chest
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:set_components'
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:99) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:149) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[08:33:26] [main/INFO]: Loaded 18 recipes
+[08:33:26] [main/INFO]: Loaded 2592 advancements
+[08:33:26] [main/INFO]: Successfully reload 1 server config(s).
+[08:33:26] [main/INFO]: Loaded config for: lootintegrations.json
+[08:33:26] [main/INFO]: [Fabric Seasons] Successfully loaded 15 custom crop configs.
+[08:33:26] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 56 translation keys
+[08:33:26] [main/INFO]: Reloading grave shape (server)
+[08:33:26] [main/INFO]: Grave model and shape reload successful (server)
+[08:33:26] [main/INFO]: Reloading YIGD graveyard data (server)
+[08:33:26] [main/INFO]: Graveyard data successfully reloaded (server)
+[08:33:26] [main/INFO]: Reloading YIGD grave area overrides (server)
+[08:33:26] [main/INFO]: Grave area overrides successfully reloaded (server)
+[08:33:26] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: forsaken:has_structures/wells/pit/cobble, quark:has_fallen_jungle
+[08:33:26] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: forge:stone
+[08:33:26] [main/WARN]: Initial datapack load took 4.916 s
+[08:33:27] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[08:33:27] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[08:33:27] [main/INFO]: Applied 2873 biome modifications to 158 of 170 new biomes in 78.59 ms
+[08:33:27] [Server thread/INFO]: Initialising config for [DistantHorizons]
+[08:33:27] [Server thread/INFO]: [DistantHorizons] Config initialised
+[08:33:27] [Server thread/INFO]: Running Delayed setup...
+[08:33:27] [Server thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[08:33:27] [Server thread/INFO]: Checking for Distant Horizons update
+[08:33:28] [Server thread/INFO]: Distant Horizons already up to date.
+[08:33:28] [Server thread/INFO]: Distant Horizons server Initialized at .
+[08:33:28] [Server thread/INFO]: Loading server configs...
+[08:33:28] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[08:33:28] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[08:33:28] [Server thread/INFO]: Loading properties
+[08:33:28] [Server thread/INFO]: Default game type: SURVIVAL
+[08:33:28] [Server thread/INFO]: Generating keypair
+[08:33:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:33:28] [Server thread/INFO]: Using epoll channel type
+[08:33:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:33:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:33:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:33:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:33:28] [Server thread/INFO]: Preparing level "world"
+[08:33:29] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[08:33:29] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[08:33:29] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[08:33:29] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[08:33:29] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[08:33:29] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[08:33:29] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[08:33:29] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[08:33:29] [Server thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [./world/data/DistantHorizons.sqlite]
+[08:33:29] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
+[08:33:29] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[08:33:29] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[08:33:29] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
+[08:33:29] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [aether:the_aether]-[./world/dimensions/aether/the_aether/data]...
+[08:33:29] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[08:33:29] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[08:33:29] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@aether:the_aether}] at [[LocalSaveStructure@(./world/data;./world/dimensions/aether/the_aether/data)]].
+[08:33:29] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
+[08:33:29] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[08:33:29] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[08:33:29] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/data;./world/DIM-1/data;./world/dimensions/aether/the_aether/data)]].
+[08:33:29] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
+[08:33:29] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[08:33:29] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[08:33:29] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/DIM1/data;./world/data;./world/DIM-1/data;./world/dimensions/aether/the_aether/data)]].
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:0 potentially creating overlapping structures detected. Structure sets: [minecraft:mineshafts, minecraft:strongholds, minecraft:buried_treasures]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:641926537 potentially creating overlapping structures detected. Structure sets: [qrafty:dirt_hut, qrafty:termite_hill]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:783 potentially creating overlapping structures detected. Structure sets: [nova_structures:taverns, nova_structures:badlands_miner_outpost]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:433252558 potentially creating overlapping structures detected. Structure sets: [mvs:warped_house, mvs:azelea_house]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:10387312 potentially creating overlapping structures detected. Structure sets: [nova_structures:villages_jungle, nova_structures:villages_swamp]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:2358902 potentially creating overlapping structures detected. Structure sets: [terralith:mage, terralith:regular]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:100922847 potentially creating overlapping structures detected. Structure sets: [mns:medium_house, mns:medium_house_2]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:10387313 potentially creating overlapping structures detected. Structure sets: [minecraft:ocean_monuments, minecraft:end_cities]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:641996537 potentially creating overlapping structures detected. Structure sets: [qrafty:archeology_desert, qrafty:ice_fort, qrafty:orbital, qrafty:jungle_treehouse, qrafty:stonehedge, qrafty:lush_ice, qrafty:enchanter, qrafty:plains, qrafty:maya, qrafty:birk_fort, qrafty:well, qrafty:stelzen, qrafty:tower, qrafty:fort, qrafty:buried_villager, qrafty:hobbit_hole, qrafty:igloo_village, qrafty:camp, qrafty:oasis, qrafty:archeology, qrafty:graveyard, qrafty:relict, qrafty:mangrove_watchtower, qrafty:overworld_leak, qrafty:archeology_taiga, qrafty:railroad, qrafty:sunken_city, qrafty:farm]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:239021 potentially creating overlapping structures detected. Structure sets: [nova_structures:desert_ruins, nova_structures:jungle_ruins]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:665973329 potentially creating overlapping structures detected. Structure sets: [feur_extension_desert:old_house, feur_extension_jungle:old_house]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:429454167 potentially creating overlapping structures detected. Structure sets: [farmers_structures:quarks_slime_with_all, farmers_structures:quarks_moss_with_all]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:784827271 potentially creating overlapping structures detected. Structure sets: [betterfortresses:fortress, betteroceanmonuments:ocean_monument]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:420699602 potentially creating overlapping structures detected. Structure sets: [structory_towers:ultra_rare_towers, structory_towers:towers, structory_towers:end_towers]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:1680262593 potentially creating overlapping structures detected. Structure sets: [feur_extension_desert:pyramid, feur_extension_jungle:pyramid]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:499672 potentially creating overlapping structures detected. Structure sets: [bosses_of_mass_destruction:obsidilith_arena, bosses_of_mass_destruction:gauntlet_arena]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:1513104469 potentially creating overlapping structures detected. Structure sets: [qrafty:jungle_treevillage, qrafty:tsumago, qrafty:bamboo, qrafty:bunker]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:14357620 potentially creating overlapping structures detected. Structure sets: [epic:witch_hut, minecraft:swamp_huts]
+[08:33:29] [Server thread/WARN]: Non-unique structure_set salt:4533232 potentially creating overlapping structures detected. Structure sets: [nova_structures:illager_camp, nova_structures:nether_camps]
+[08:33:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:33:29] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[08:33:30] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: BALANCED
+[08:33:30] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[08:33:30] [DH-ApplyConfigPresetTimer/INFO]: preset active: BALANCED
+[08:33:30] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[08:33:31] [Server thread/INFO]: Preparing spawn area: 0%
+[08:33:31] [Server thread/INFO]: Preparing spawn area: 0%
+[08:33:31] [Server thread/INFO]: Preparing spawn area: 0%
+[08:33:31] [Server thread/INFO]: Preparing spawn area: 0%
+[08:33:31] [Server thread/INFO]: Preparing spawn area: 0%
+[08:33:32] [Server thread/INFO]: Preparing spawn area: 0%
+[08:33:32] [Server thread/INFO]: Preparing spawn area: 23%
+[08:33:33] [Server thread/INFO]: Preparing spawn area: 60%
+[08:33:33] [Server thread/INFO]: Preparing spawn area: 90%
+[08:33:34] [Server thread/INFO]: Time elapsed: 4680 ms
+[08:33:34] [Server thread/INFO]: Done (5.746s)! For help, type "help"
+[08:33:34] [Server thread/WARN]: Dedicated server took 27.515 seconds to load
+[08:33:34] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 45129 bytes (in 5 string chunks with the size of 10000)
+[08:33:34] [Server thread/INFO]: Start loading plugin from Balm
+[08:33:34] [Server thread/INFO]: Start loading plugin from Jade
+[08:33:34] [Server thread/INFO]: Start loading plugin from Jade
+[08:33:34] [Server thread/INFO]: Start loading plugin from Jade
+[08:33:34] [Server thread/INFO]: Start loading plugin from Polymer (Core)
+[08:33:34] [Server thread/INFO]: DH TerraFirmaCraft detection: false
+[08:33:34] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[08:33:34] [Server thread/INFO]: Batch Chunk Generator initialized
+[08:33:34] [Server thread/INFO]: Creating world gen queue
+[08:33:34] [Server thread/INFO]: Created world gen queue
+[08:33:34] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
+[08:33:34] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[08:33:34] [Server thread/INFO]: Batch Chunk Generator initialized
+[08:33:34] [Server thread/INFO]: Creating world gen queue
+[08:33:34] [Server thread/INFO]: Created world gen queue
+[08:33:34] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
+[08:33:34] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[08:33:34] [Server thread/INFO]: Batch Chunk Generator initialized
+[08:33:34] [Server thread/INFO]: Creating world gen queue
+[08:33:34] [Server thread/INFO]: Created world gen queue
+[08:33:34] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
+[08:33:34] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[08:33:34] [Server thread/INFO]: Batch Chunk Generator initialized
+[08:33:34] [Server thread/INFO]: Creating world gen queue
+[08:33:34] [Server thread/INFO]: Created world gen queue
+[08:33:34] [Server thread/INFO]: Set world gen queue for level [aether:the_aether].
+[08:33:42] [Server thread/INFO]: IPAZP[/127.205.177.14:48929] logged in with entity id 225 at (-10408.133264278227, 102.0, 5696.023705971602)
+[08:33:42] [Server thread/INFO]: Syncing config to IPAZP (7a47b6a8-6acd-3284-8bf4-2993df8e08de)
+[08:33:42] [Server thread/INFO]: Player [IPAZP] joined.
+[08:33:42] [Server thread/INFO]: IPAZP joined the game
+[08:33:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2498ms or 49 ticks behind
+[08:33:46] [Netty Epoll Server IO #2/INFO]: Priority overwritten for player IPAZP. Claiming: GRAVE / Robbing: INVENTORY
+[08:35:24] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:24] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:25] [DH-World Gen Thread[0]/INFO]: WorldGen requiring minecraft:structure_references outside expected range detected. Force passing EMPTY chunk and seeing if it works.
+[08:35:25] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:25] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:26] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:26] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:26] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:26] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:26] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:26] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:26] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:26] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:27] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:27] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:27] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:27] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:27] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:27] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:28] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:28] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:28] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:28] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:28] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:28] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:29] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:29] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:29] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:29] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:29] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:29] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:30] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:30] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:30] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:30] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:30] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:30] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:31] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:31] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:42] [Server thread/INFO]: Villager VillagerEntityMCA['Spomenka'/339, l='ServerLevel[world]', x=-10318.29, y=85.00, z=5731.47] died, message: 'Spomenka was shot by Pillager'
+[08:35:42] [Server thread/INFO]: Named entity VillagerEntityMCA['Spomenka'/339, l='ServerLevel[world]', x=-10318.29, y=85.00, z=5731.47] died: Spomenka was shot by Pillager
+[08:35:43] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:43] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:43] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:43] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:43] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:43] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:43] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:43] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:43] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:43] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:43] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:43] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:43] [Server thread/ERROR]: Error loading saved data: seasons_replaced_meltables
+net.minecraft.class_148: Loading NBT data
+	at net.minecraft.class_2487.method_10581(class_2487.java:506) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2487$1.method_23240(class_2487.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2487$1.method_23262(class_2487.java:57) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2487.method_10581(class_2487.java:500) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2487$1.method_23240(class_2487.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2487$1.method_23262(class_2487.java:57) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2507.method_10626(class_2507.java:147) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2507.method_10625(class_2507.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2507.method_10629(class_2507.java:36) ~[server-intermediary.jar:?]
+	at net.minecraft.class_26.method_17923(class_26.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_26.method_120(class_26.java:70) ~[server-intermediary.jar:?]
+	at net.minecraft.class_26.method_20786(class_26.java:58) ~[server-intermediary.jar:?]
+	at net.minecraft.class_26.method_17924(class_26.java:42) ~[server-intermediary.jar:?]
+	at io.github.lucaargolo.seasons.FabricSeasons.getReplacedMeltablesState(FabricSeasons.java:151) ~[fabric-seasons-2.3+1.20.jar:?]
+	at io.github.lucaargolo.seasons.utils.Meltable.onMeltableReplaced(Meltable.java:22) ~[fabric-seasons-2.3+1.20.jar:?]
+	at net.minecraft.class_4970.handler$dee000$seasons$checkIfMeltableReplaced(class_4970.java:2023) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4970.method_9536(class_4970.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4970$class_4971.method_26197(class_4970.java:1109) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2818.method_12010(class_2818.java:261) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_30092(class_1937.java:228) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8652(class_1937.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1937.method_8501(class_1937.java:322) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2386.method_10275(class_2386.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2386.handler$deh000$seasons$randomTick(class_2386.java:1034) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2386.method_9514(class_2386.java) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4970$class_4971.method_26199(class_4970.java:1117) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.redirect$bok000$lithium$redirectBlockStateTick(class_3218.java:11243) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_18203(class_3218.java:523) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3215.method_14161(class_3215.java:382) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3215.method_12127(class_3215.java:326) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3218.method_18765(class_3218.java:333) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:897) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3813(class_3176.java:283) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:244) ~[?:?]
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158) ~[?:?]
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:117) ~[?:?]
+	at net.minecraft.class_6826.method_39780(class_6826.java:94) ~[server-intermediary.jar:?]
+	at net.minecraft.class_6826.read(class_6826.java:47) ~[server-intermediary.jar:?]
+	at java.io.DataInputStream.readFully(DataInputStream.java:201) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:602) ~[?:?]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:558) ~[?:?]
+	at net.minecraft.class_2487.method_10552(class_2487.java:495) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2487$1.method_23240(class_2487.java:68) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2487$1.method_23262(class_2487.java:57) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2487.method_10581(class_2487.java:500) ~[server-intermediary.jar:?]
+	... 36 more
+[08:35:43] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:43] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:43] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:43] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:43] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:43] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:43] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:43] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:43] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:43] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:43] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:43] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:43] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:43] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:43] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:43] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:44] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:44] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:45] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:45] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:45] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:45] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:45] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:45] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:45] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:45] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:45] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:45] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:46] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:46] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:46] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:46] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:46] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:46] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:46] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:46] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:47] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:48] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:48] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:48] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:48] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:49] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:49] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:49] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:49] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:49] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:49] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:49] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:49] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:49] [DH-World Gen Thread[1]/ERROR]: Hanging entity at invalid position: class_2338{x=-108, y=56, z=-39}
+[08:35:49] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:49] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:53] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:53] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:53] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:53] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:53] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:53] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:53] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:53] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:54] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:55] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:55] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:55] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:55] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:55] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:55] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:55] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:55] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:55] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:55] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:55] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:55] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:35:56] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:35:56] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:14] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:14] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:14] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:14] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:18] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:18] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:18] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:18] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:18] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:18] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:18] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:18] [DH-World Gen Thread[1]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:18] [DH-World Gen Thread[1]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:19] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:19] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:19] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:19] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:19] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:19] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:20] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:20] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:20] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:20] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:20] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:20] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:20] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:20] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:23] [Netty Epoll Server IO #2/INFO]: Player [IPAZP] disconnected.
+[08:36:23] [Server thread/INFO]: IPAZP lost connection: Disconnected
+[08:36:23] [Server thread/INFO]: IPAZP left the game
+[08:36:25] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:25] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:25] [DH-World Gen Thread[0]/ERROR]: Better Caves expected a ServerLevel, but got: loaderCommon.fabric.com.seibel.distanthorizons.common.wrappers.worldGeneration.mimicObject.DhLitWorldGenRegion
+[08:36:25] [DH-World Gen Thread[0]/ERROR]: Liquid regions will not be generated for this chunk. This may be fatal!
+[08:36:48] [Server thread/INFO]: Stopping the server
+[08:36:48] [Server thread/INFO]: Stopping server
+[08:36:48] [Server thread/INFO]: Saving players
+[08:36:48] [Server thread/INFO]: Saving worlds
+[08:36:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:36:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[08:36:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08:36:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08:36:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:36:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[08:36:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:36:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:36:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:36:49] [Server thread/INFO]: Unloading level DhServerLevel{jkf6mebs5iu8o@minecraft:overworld} 
+[08:36:49] [Server thread/INFO]: Closing world gen queue
+[08:36:49] [Server thread/INFO]: Closing WorldGenerationQueue...
+[08:36:49] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[08:36:52] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[08:36:52] [Server thread/INFO]: BatchGenerator shutting down...
+[08:36:52] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[08:36:52] [Server thread/INFO]: Canceling in progress generation event futures...
+[08:36:52] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[08:36:52] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[08:36:52] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{jkf6mebs5iu8o@minecraft:overworld}].
+[08:36:52] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{jkf6mebs5iu8o@minecraft:overworld}].
+[08:36:52] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]...
+[08:36:52] [DH-Parent Update Queue [minecraft:overworld] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:overworld] Thread[0]] terminated.
+[08:36:52] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]
+[08:36:52] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[08:36:52] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{jkf6mebs5iu8o@minecraft:overworld}].
+[08:36:52] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{jkf6mebs5iu8o@minecraft:overworld}].
+[08:36:52] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[08:36:52] [Server thread/INFO]: Unloading level DhServerLevel{jkf6mebs5iu8o@aether:the_aether} 
+[08:36:52] [Server thread/INFO]: Closing world gen queue
+[08:36:52] [Server thread/INFO]: Closing WorldGenerationQueue...
+[08:36:52] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[08:36:55] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[08:36:55] [Server thread/INFO]: BatchGenerator shutting down...
+[08:36:55] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[08:36:55] [Server thread/INFO]: Canceling in progress generation event futures...
+[08:36:55] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[08:36:55] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[08:36:55] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{jkf6mebs5iu8o@aether:the_aether}].
+[08:36:55] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{jkf6mebs5iu8o@aether:the_aether}].
+[08:36:55] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/dimensions/aether/the_aether/data/DistantHorizons.sqlite]...
+[08:36:55] [DH-Parent Update Queue [aether:the_aether] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [aether:the_aether] Thread[0]] terminated.
+[08:36:55] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:./world/dimensions/aether/the_aether/data/DistantHorizons.sqlite]
+[08:36:55] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@aether:the_aether}].
+[08:36:56] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{jkf6mebs5iu8o@aether:the_aether}].
+[08:36:56] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{jkf6mebs5iu8o@aether:the_aether}].
+[08:36:56] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@aether:the_aether}].
+[08:36:56] [Server thread/INFO]: Unloading level DhServerLevel{jkf6mebs5iu8o@minecraft:the_nether} 
+[08:36:56] [Server thread/INFO]: Closing world gen queue
+[08:36:56] [Server thread/INFO]: Closing WorldGenerationQueue...
+[08:36:56] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[08:36:59] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[08:36:59] [Server thread/INFO]: BatchGenerator shutting down...
+[08:36:59] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[08:36:59] [Server thread/INFO]: Canceling in progress generation event futures...
+[08:36:59] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[08:36:59] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[08:36:59] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{jkf6mebs5iu8o@minecraft:the_nether}].
+[08:36:59] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{jkf6mebs5iu8o@minecraft:the_nether}].
+[08:36:59] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]...
+[08:36:59] [DH-Parent Update Queue [minecraft:the_nether] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_nether] Thread[0]] terminated.
+[08:36:59] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]
+[08:36:59] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[08:36:59] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{jkf6mebs5iu8o@minecraft:the_nether}].
+[08:36:59] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{jkf6mebs5iu8o@minecraft:the_nether}].
+[08:36:59] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[08:36:59] [Server thread/INFO]: Unloading level DhServerLevel{jkf6mebs5iu8o@minecraft:the_end} 
+[08:36:59] [Server thread/INFO]: Closing world gen queue
+[08:36:59] [Server thread/INFO]: Closing WorldGenerationQueue...
+[08:36:59] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[08:37:02] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[08:37:02] [Server thread/INFO]: BatchGenerator shutting down...
+[08:37:02] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[08:37:02] [Server thread/INFO]: Canceling in progress generation event futures...
+[08:37:02] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[08:37:02] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[08:37:02] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{jkf6mebs5iu8o@minecraft:the_end}].
+[08:37:02] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{jkf6mebs5iu8o@minecraft:the_end}].
+[08:37:02] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]...
+[08:37:02] [DH-Parent Update Queue [minecraft:the_end] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_end] Thread[0]] terminated.
+[08:37:02] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]
+[08:37:02] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[08:37:02] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{jkf6mebs5iu8o@minecraft:the_end}].
+[08:37:02] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{jkf6mebs5iu8o@minecraft:the_end}].
+[08:37:02] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[08:37:02] [Server thread/INFO]: Unloading server configs...
+[08:37:02] [Server thread/INFO]: Sending config unload event for backpacked.server.toml
+[08:37:02] [Server thread/INFO]: Finished unloading server configs
+[08:37:02] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[08:37:02] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[08:37:02] [Server thread/INFO]: Shutting down PriorityTaskPicker thread pool...
+[08:37:02] [Server thread/INFO]: Closing all [0] database connections...
